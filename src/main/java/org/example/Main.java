@@ -27,7 +27,7 @@ public class Main extends JFrame {
         c.insets = new Insets(5, 5, 5, 5);
 
         // Добавляем стиль для меток
-        Font labelFont = new Font("Arial", Font.BOLD, 14);
+        Font labelFont = new Font("Calibri Light", Font.BOLD, 14);
 
         // Добавляем метку для веса
         weightLabel = new JLabel("Вес (кг):");
@@ -103,7 +103,7 @@ public class Main extends JFrame {
         JPanel buttonPanel = new JPanel();
 
         // Добавляем стиль для кнопки
-        Font buttonFont = new Font("Arial", Font.BOLD, 20);
+        Font buttonFont = new Font("Calibri Light", Font.BOLD, 20);
 
         // Создаем текстовую область для вывода результата
         resultTextArea = new JTextArea();
@@ -120,7 +120,7 @@ public class Main extends JFrame {
 
 
         // Добавляем стиль для текстовой области
-        resultTextArea.setFont(new Font("Arial", Font.PLAIN, 14));
+        resultTextArea.setFont(new Font("Calibri Light", Font.PLAIN, 14));
 
         // Добавляем панели ввода данных, кнопку расчета и текстовую область для вывода результата в главное окно
         add(inputPanel, BorderLayout.NORTH);
